@@ -1,0 +1,20 @@
+#base {
+  background: white;
+  display: inline-block;
+  height: 55px;
+  margin-left: 0px;
+  margin-top: 0px;
+    position: relative;
+    width: 250px;
+}
+#base:before {
+  border-bottom: 35px solid white;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 200;
+}
